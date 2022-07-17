@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Kishoretestpro/.idea/Kishoretestpro.iml" filepath="$PROJECT_DIR$/../Kishoretestpro/.idea/Kishoretestpro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python Program/.idea/python Program.iml" filepath="$PROJECT_DIR$/../python Program/.idea/python Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python-training.iml" filepath="$PROJECT_DIR$/.idea/python-training.iml" />
+    </modules>
+  </component>
+</project>
