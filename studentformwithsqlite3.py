@@ -18,7 +18,7 @@ def database():
     gender = var.get()
     country = c.get()
     prog = var1.get()
-    conn = sqlite3.connect('Form.db')
+    conn = sqlite3.connect(r'C:\Users\kumar\Form.db')
     with conn:
         cursor = conn.cursor()
     cursor.execute(
