@@ -40,3 +40,7 @@ print(a)
 print(np.arange(10))
 print(np.arange(15))
 
+print(np.diag([1, 2, 3, 4]))
+arr=(np.diag([1, 2, 3, 4]))
+print(arr[::-1, ::-1])
+
