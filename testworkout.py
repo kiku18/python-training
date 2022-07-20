@@ -116,7 +116,7 @@ print(a)
 
 def comment():
     '''
-#b%2==0{0th column and 2nd column chnages in the 1st matrix}
+#b%2==0{0th column and 2nd column changes in the 1st matrix}
 #b%2==1{1st column alone changes in 1st matrix}
 #b==0 changes 0th column in 1st matrix
 #b==1 changes  1st column in 1st matrix
