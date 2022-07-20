@@ -77,7 +77,7 @@ arr5
 print(arr5+3)
 
 
-#data fram programs
+#data frame programs
 
 data = pd.DataFrame()
 print(data)
@@ -354,11 +354,11 @@ print(data.mean())
 print('\n---DataFrame Mean of Rows---')
 print(data.mean(1))
 
-print('\n---DataFrame Median of Columns---')
-print(data.median())
+#print('\n---DataFrame Median of Columns---')
+#print(data.median())
 
-print('\n---DataFrame Median of Rows---')
-print(data.median(1))
+#print('\n---DataFrame Median of Rows---')
+#print(data.median(1))
 
 table = {'name': ['Kane', 'John', 'Mike', 'Suresh', 'Tracy'],
          'Age': [35, 25, 32, 30, 26],
@@ -387,3 +387,4 @@ print('\n---Iterating Rows---')
 for rows, columns in data.iterrows():
     print(rows, columns)
     print()
+
