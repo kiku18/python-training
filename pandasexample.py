@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from pandas import Series
-
+'''
 arr = Series([15, 35, 55, 75])
 print(arr)
 
@@ -75,7 +75,7 @@ arr5 = Series([2, 4, -6, 8, -7], index = ['a', 'e', 'i', 'o', 'u'])
 arr5
 
 print(arr5+3)
-
+'''
 #data frame programs
 
 data = pd.DataFrame()
@@ -110,9 +110,10 @@ table = {'name': ['John', 'Mike', 'Suresh', 'Tracy'],
          'Profession': ['Developer', 'Analyst', 'Admin', 'HR'],
          'Salary':[1000000, 1200000, 900000, 1100000]
          }
-
+print(table)
 data = pd.DataFrame(table)
 print(data)
+
 
 names = ['John', 'Mike', 'Suresh', 'Tracy']
 ages = [25, 32, 30, 26]
@@ -128,9 +129,11 @@ table = {'name': names,
 data = pd.DataFrame(table)
 print(data)
 
-dates = pd.date_range('20190101', periods = 8)
+dates = pd.date_range('20190101', periods = 8,freq='Y'
+                      )
 print(dates)
 print()
+
 
 d_frame = pd.DataFrame(np.random.randn(8, 4), index = dates,
                        columns = {'apples', 'oranges', 'kiwis', 'bananas'})
