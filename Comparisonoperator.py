@@ -58,11 +58,11 @@ try:
 except ValueError:
     print("Please input only octal value...")
 try:
-    q = int(input("Input hex value of q: "), 8)
+    q = int(input("Input octal value of q: "), 8)
     print("q (decimal format):", q)
-    print("q (oct format):", oct(q))
+    print("q (octal format):", oct(q))
 except ValueError:
-    print("Please input only hex value...")
+    print("Please input only octal value...")
 
 
 print(p==q)
