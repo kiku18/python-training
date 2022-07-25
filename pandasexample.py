@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from pandas import Series
-'''
+
 arr = Series([15, 35, 55, 75])
 print(arr)
 
@@ -75,7 +75,7 @@ arr5 = Series([2, 4, -6, 8, -7], index = ['a', 'e', 'i', 'o', 'u'])
 arr5
 
 print(arr5+3)
-'''
+
 #data frame programs
 
 data = pd.DataFrame()
