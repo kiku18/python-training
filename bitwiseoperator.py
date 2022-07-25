@@ -27,7 +27,7 @@ print('\n----Calculating hex  values-----')
 a = "B"
 b = "C"
 sum = hex(int(a, 16) + int(b, 16))
-print(sum[2:])
+print(f"The sum of {a} and {b} is:", sum[2:])
 
 a = "BE"
 b = "DF"
@@ -54,3 +54,16 @@ print(f"The product of {a}, {b} and {c} is:",product[3:])
 print(f"The sum of {a}, {b} and {c} is:",sum[3:])
 
 
+# Calculating binary values using function
+print('\n----Calculating binary  values-----')
+a = "110110100001"
+b = "1010101101"
+sum = bin(int(a, 2) + int(b, 2))
+print(f"The sum of {a} and {b} is:", sum[2:])
+
+a = "1001"
+b = "101"
+sum = bin(int(a, 2) + int(b, 2))
+print(f"The sum of {a} and {b} is:", sum[2:])
+product = bin(int(a, 2) * int(b, 2))
+print(f"The product of {a} and {b} is:", product[2:])
