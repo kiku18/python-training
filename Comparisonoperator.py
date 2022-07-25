@@ -54,7 +54,7 @@ print('\n----Comparing 2 octal values-----')
 try:
     p = int(input("Input octal value of p: "), 8)
     print("p (decimal format):", p)
-    print("p (octal format):",oct(p))
+    print("p (octal format):", oct(p))
 except ValueError:
     print("Please input only octal value...")
 try:
