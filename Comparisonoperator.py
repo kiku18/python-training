@@ -41,7 +41,7 @@ try:
     print("q (decimal format):", q)
     print("q (hex format):", hex(q))
 except ValueError:
-    print("Please input only hex value...")
+    print("Please input only hexadecimal value...")
 
 print(p==q)
 print(p!=q)
