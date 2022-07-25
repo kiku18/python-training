@@ -1,9 +1,10 @@
 d=dict()
 print(type(d))
 d1={}
-print(type(d1))
+print(f" the type of d1 is:", type(d1))
+# empty set is also a dictionary
 d2={1,2,3,4}
-print(type(d2))
+print(f" the type of d2 is:",type(d2))
 d3={1:'odd',2:'even',3:'odd'}
 print(d3)
 print(d3.keys())
