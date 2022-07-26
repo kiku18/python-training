@@ -9,6 +9,7 @@ print ((b>c) or (b>a))
 print(not(a>b))
 print(not(b>a))
 
+# comparing 3 octal numbers
 print('\n----Comparing 3 octal values-----')
 try:
     p = int(input("Input octal value of p: "), 8)
@@ -37,6 +38,7 @@ print ((q>r) or (q>p))
 print(not(p>q))
 print(not(q>p))
 
+# comparing 3 hex numbers
 print('\n----Comparing 3 hex values-----')
 try:
     p = int(input("Input hex value of p: "), 16)
@@ -65,6 +67,7 @@ print((q > r) or (q > p))
 print(not (p > q))
 print(not (q > p))
 
+# comparing 3 binary numbers
 print('\n----Comparing 3 binary values-----')
 try:
     p = int(input("Input binary value of p: "), 2)
