@@ -1,6 +1,6 @@
-a=5
-b=6
-c=4
+a=55
+b=61
+c=43
 
 print((a>b) and (a>c))
 print((b>a) and (b>c))
