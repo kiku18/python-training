@@ -67,3 +67,59 @@ sum = bin(int(a, 2) + int(b, 2))
 print(f"The sum of {a} and {b} is:", sum[2:])
 product = bin(int(a, 2) * int(b, 2))
 print(f"The product of {a} and {b} is:", product[2:])
+
+# get value from users
+print('\n----Arithmetic operation of 2 hex values-----')
+try:
+    p = int(input("Input hex value of p: "), 16)
+    print("p (decimal format):", p)
+    print("p (hex format):",hex(p))
+except ValueError:
+    print("Please input only hexadecimal value...")
+try:
+    q = int(input("Input hex value of q: "), 16)
+    print("q (decimal format):", q)
+    print("q (hex format):", hex(q))
+except ValueError:
+    print("Please input only hexadecimal value...")
+
+print(f"The sum of {p} and {q} is:", (p+q))
+print(f"The product of {p} and {q} is:", (p*q))
+print(f"The difference of {p} and {q} is:", (p-q))
+
+print('\n----Arithmetic operation of 2 octal values-----')
+try:
+    p = int(input("Input octal value of p: "), 8)
+    print("p (decimal format):", p)
+    print("p (octal format):", oct(p))
+except ValueError:
+    print("Please input only octal value...")
+try:
+    q = int(input("Input octal value of q: "), 8)
+    print("q (decimal format):", q)
+    print("q (octal format):", oct(q))
+except ValueError:
+    print("Please input only octal value...")
+
+print(f"The sum of {p} and {q} is:", (p+q))
+print(f"The product of {p} and {q} is:", (p*q))
+print(f"The difference of {p} and {q} is:", (p-q))
+
+print('\n----Arithmetic operation of 2 binary values-----')
+try:
+    p = int(input("Input binary value of p: "), 2)
+    print("p (decimal format):", p)
+    print("p (binary format):", bin(p))
+except ValueError:
+    print("Please input only binary value...")
+try:
+    q = int(input("Input binary value of q: "), 2)
+    print("q (decimal format):", q)
+    print("q (binary format):", bin(q))
+except ValueError:
+    print("Please input only binary value...")
+
+print(f"The sum of {p} and {q} is:", (p+q))
+print(f"The product of {p} and {q} is:", (p*q))
+print(f"The difference of {p} and {q} is:", (p-q))
+
