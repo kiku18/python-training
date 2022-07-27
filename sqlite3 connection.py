@@ -15,12 +15,21 @@ cur.execute(sql1)
 conn.commit()
 cur.close()
 '''
-sql='select location,sum(salary) as salary from employee group by location'
+sql='select emp_name,sum(salary) as salary from employee group by emp_name'
 query = pd.read_sql_query(sql, conn)
 df = pd.DataFrame(query)
 print(df)
 print(df.head(2))
+df.plot(x = 'emp_name', y = 'salary',kind='pie')
+plt.show()
+cur.execute(sql)
 print('-----------------------')
+sql='select location,sum(salary) as salary from employee group by location'
+query = pd.read_sql_query(sql, conn)
+df = pd.DataFrame(query)
+print(df)
+print(df.tail(2))
+
 df.plot(x = 'location', y = 'salary',kind='bar')
 plt.show()
 cur.execute(sql)
