@@ -66,7 +66,8 @@ class Parent:
 
 # Inheriting class Parent in child by giving the class name Parent with in class child
 # here in inheritance we are declaring the init constructor of class Parent and its function in class child
-# the parent class is called with its class name followed by it's function, refer line 70 to 73
+# the parent class is called with its class name followed by it's function, refer line 71 to 74
+
 class child(Parent):
     def __init__(self,fname,mname,fage,mage,plocation,cname,cage,clocation):
         Parent.__init__(self,fname,mname,fage,mage,plocation)
