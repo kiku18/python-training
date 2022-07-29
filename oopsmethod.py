@@ -65,8 +65,8 @@ class Parent:
         print(f"The father name is: {self.fname} and The mother name is: {self.mname}, The father age is: {self.fage},The mother age is: {self.mage},My parents stay together in: {self.plocation}")
 
 # Inheriting class Parent in child by giving the class name Parent with in class child
-# here in inheritance we are declaring the init constructor of class Parent and its function
-
+# here in inheritance we are declaring the init constructor of class Parent and its function in class child
+# the parent class is called with its class name followed by it s function, refer line 70 to 73
 class child(Parent):
     def __init__(self,fname,mname,fage,mage,plocation,cname,cage,clocation):
         Parent.__init__(self,fname,mname,fage,mage,plocation)
