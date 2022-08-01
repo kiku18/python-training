@@ -1,3 +1,4 @@
+
 class sample4:
     course='python'
     def courseprint(cls):
@@ -51,6 +52,44 @@ class emp1:
 a=emp1.avg()
 print(a)
 
+# Without Inheritance calling class members using function and object
+
+#  if not defined the print statement in function display, please call them using object as below.
+# you can use the below print statement to define the print or can simply call the function using object.
+# print("The father name is :",(a.fname),"\n The mother name is:",(a.mname),"\n The father age is:",(a.fage), "\n The mother age is:",(a.mage),"\n My parents stay together in:",(a.plocation))
+# print("The child name is:",(b.cname),"\n The child age is:",(b.cage),"\n The child currently dwells in:",(b.clocation))
+
+class Parent:
+    def __init__(self,fname,mname,fage,mage,plocation):
+        self.fname=fname
+        self.mname=mname
+        self.fage=fage
+        self.mage=mage
+        self.plocation=plocation
+
+    def display(self):
+     print(self.fname,self.mname,self.fage,self.mage,self.plocation)
+
+class child:
+    def __init__(self,cname,cage,clocation):
+        self.cname=cname
+        self.cage=cage
+        self.clocation=clocation
+
+    def display(self):
+     print(self.cname,self.cage,self.clocation)
+
+a=Parent('Mangalanathan','Karpagam',60,57,'Tambaram')
+b=child('Kishore',28,'Tambaram')
+
+a.display()
+b.display()
+
+# or you can use the print
+
+print("The father name is :",(a.fname),"\n The mother name is:",(a.mname),"\n The father age is:",(a.fage), "\n The mother age is:",(a.mage),"\n My parents stay together in:",(a.plocation))
+print("The child name is:",(b.cname),"\n The child age is:",(b.cage),"\n The child currently dwells in:",(b.clocation))
+
 # Inheritance example
 
 class Parent:
@@ -66,7 +105,7 @@ class Parent:
 
 # Inheriting class Parent in child by giving the class name Parent with in class child
 # here in inheritance we are declaring the init constructor of class Parent and its function in class child
-# the parent class is called with its class name followed by it's function, refer line 71 to 74
+# the parent class is called with its class name followed by it's function, refer line 111 to 113
 
 class child(Parent):
     def __init__(self,fname,mname,fage,mage,plocation,cname,cage,clocation):
@@ -83,8 +122,5 @@ class child(Parent):
 b=child('Mangalanathan','Karpagam',60,57,'Ramanathapuram','Kishore',28,'Tambaram')
 b.display()
 
-#  if not defined the print statement in function display, please call them using object as below.
-# Note: use the below commands without inheriting
-# print("The father name is :",(a.fname),"\n The mother name is:",(a.mname),"\n The father age is:",(a.fage), "\n The mother age is:",(a.mage),"\n My parents stay together in:",(a.plocation))
-# print("The child name is:",(b.cname),"\n The child age is:",(b.cage),"\n The child currently dwells in:",(b.clocation))
+
 
