@@ -3,9 +3,9 @@ def square(a):
 def cube(a):
     print(a ** 3)
 
-n=int(input(" Enter the nmumber"))
-square(n)
-cube(n)
+n=int(input(" Enter the number:"))
+square(f'The square of the given number is:',n)
+cube(f'The cube of the given number is:',n)
 square(n+5)
 cube(n+5)
 
