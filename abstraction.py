@@ -29,7 +29,7 @@ o.displaypage()
 print(o.name)
 
 class student:
-    __name=None        #no _=public,1_=projected,2__=private
+    __name=None        #no _=public,1_=protected,2__=private
     _roll=None         #if public it can be called in another class ie can be inherited anywhere
     _branch=None        #if private it can be called within the same class only ie no inheritance
                         #if projected it can be called in another class ie can be inherited
