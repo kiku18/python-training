@@ -15,11 +15,11 @@ c=int(input(" Enter the number3:"))
 
 def largestofthreenumbers(x,y,z):
     if x>y and x>z:
-        print(x)
-    elif y>z and y>z:
-        print(y)
+        print(f'The largest number is:',x)
+    elif y>z and y>x:
+        print(f'The largest number is:',y)
     else:
-        print(z)
+        print(f'The largest number is:',z)
 
 largestofthreenumbers(a,b,c)
 
