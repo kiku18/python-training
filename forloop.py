@@ -1,4 +1,4 @@
-'''
+
 for a in range(5):
     print(a)
 print('----')
@@ -221,7 +221,7 @@ for a,b in d.items():
     print(b)
     d1[a]=(b*0.35)+b
     print(d1)
-'''
+
 above40={}
 below40 ={}
 di={'a':37,'b':29,'c':42,'d':47,'e':27}
