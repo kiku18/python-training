@@ -1,7 +1,7 @@
 def square(a):
-    print(a**2)
+    print(f'The square of the given number is:',a**2)
 def cube(a):
-    print(a ** 3)
+    print(f'The cube of the given number is:',a ** 3)
 
 n=int(input(" Enter the number:"))
 square(n)
