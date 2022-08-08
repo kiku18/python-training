@@ -4,14 +4,14 @@ def cube(a):
     print(a ** 3)
 
 n=int(input(" Enter the number:"))
-square(f'The square of the given number is:',n)
-cube(f'The cube of the given number is:',n)
+square(n)
+cube(n)
 square(n+5)
 cube(n+5)
 
-a=int(input(" Enter the nmumber1:"))
-b=int(input(" Enter the nmumber2:"))
-c=int(input(" Enter the nmumber3:"))
+a=int(input(" Enter the number1:"))
+b=int(input(" Enter the number2:"))
+c=int(input(" Enter the number3:"))
 
 def largestofthreenumbers(x,y,z):
     if x>y and x>z:
