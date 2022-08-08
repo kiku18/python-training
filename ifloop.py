@@ -3,11 +3,11 @@ if -2:
 if False:
     print("I will not enter")
 if True:
-    print("i will enter")
+    print("I will enter")
 if 99:
     print("I will enter")
 if 0:
-    print("I wil enter")
+    print("I will enter")
 
 age=int(input("Enter the age"))
 if age <18:
