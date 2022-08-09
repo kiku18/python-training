@@ -45,7 +45,7 @@ else:
         print(f"the student total ={total}")
         print(f"the average of the student ={Avg}")
         print('grade A')
-    elif total < 350 and total >= 300:
+    elif total < 450 and total >= 300:
         print(f"the student total ={total}")
         print(f"the average of the student ={Avg}")
         print('grade B')
