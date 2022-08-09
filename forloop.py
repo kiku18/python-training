@@ -1,4 +1,6 @@
 # for loop
+y=lambda: '____________________________________________________________________________'
+
 for a in range(5):
     print(a)
 print('----')
@@ -23,7 +25,6 @@ print('-------')
 for i in 'human':
     print(i,end="")
 print('-----')
-
 
 for a in range(5):
     print(f"----------Student information {a+1}-------------")
@@ -55,50 +56,56 @@ for a in range(5):
             print(f"the average of the student ={Avg}")
             print('grade D')
 
+print(y())
+
 for a in range(1,11):
     for b in range(1,11):
         print(a,end="  ")
     print()
-print('______________')
+print(y())
+
 for a in range(1,11):
     for b in range(1,11):
         print(b,end="  ")
     print()
-print('_________________')
+print(y())
+
 for a in range(1,11):
     for b in range(1,11):
         print(a*b,end="  ")
     print()
+print(y())
 
-
-r= int(input("Enter the number of rows"))
-c= int(input("Enter the number of columns"))
+r= int(input("Enter the number of rows:"))
+c= int(input("Enter the number of columns:"))
 for a in range(1,r+1):
     for b in range(1,c+1):
             print(f"{a}*{b}={a*b}",end=" ")
             print()
+print(y())
 
-
-
-for a in range (1,6): # a starts from(1-5):(1,2,3,4,5) and the total index is (0,1,2,3,4) where 0th index is 1, 1st index is 2, 2nd index is 3 and so on.
-    for b in range(1,a+1):# here for increament it takes a's index value(0,1,2,3,4) and not a's actual value(1,2,3,4,5)
-        print(a,end= " ") # as loop finishes it prints a's actual value
+for a in range (1,6):
+    for b in range(1,a+1):
+        print(a,end= " ")
     print()
+print(y())
 
 for a in range (1,6):
     for b in range(1,a+1):
         print(b,end=" ")
     print()
-
+print(y())
 for a in range (1,6):
     for b in range(1,a+1):
         print(a*b,end=" ")
     print()
+print(y())
 
 for a in range (1,6):
     for b in range(1,a+1):
         print('*',end=" ")
     print()
+print(y())
 
 count=1
 for a in range (1,6):
@@ -106,6 +113,7 @@ for a in range (1,6):
         print(count,end=" ")
         count+=1
     print()
+print(y())
 
 v=65
 for a in range (1,6):
@@ -113,12 +121,14 @@ for a in range (1,6):
         print(chr(v),end=" ")
         v+=1
     print()
+print(y())
 
 s=42
 for a in range (1,6):
     for b in range(1,a+1):
         print(chr(s),end=" ")
     print()
+print(y())
 
 count=1
 for a in range (1,6):
@@ -129,6 +139,7 @@ for a in range (1,6):
             print('odd',end=" ")
         count+=1
     print()
+print(y())
 
 count=1
 for a in range (1,6):
@@ -139,7 +150,7 @@ for a in range (1,6):
             print(count,end=" ")
         count+=1
     print()
-
+print(y())
 
 count=1
 for a in range (1,6):
@@ -150,6 +161,7 @@ for a in range (1,6):
             print('odd',end=" ")
     count += 1
     print()
+print(y())
 
 count=1
 for a in range (1,6):
@@ -160,7 +172,7 @@ for a in range (1,6):
             print(count,end=" ")
         count+=1
     print()
-
+print(y())
 
 #For loop with list& set
 
@@ -243,29 +255,3 @@ for b in range(1,1000):
                 if b%5==0:
                     L.append(b)
 print(L)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
