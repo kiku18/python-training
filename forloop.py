@@ -80,9 +80,9 @@ for a in range(1,r+1):
 
 
 
-for a in range (1,6):
-    for b in range(1,a+1):
-        print(a,end= " ")
+for a in range (1,6): # a starts from(1-5):(1,2,3,4,5) and the total index is (0,1,2,3,4) where 0th index is 1, 1st index is 2, 2nd index is 3 and so on.
+    for b in range(1,a+1):# here for increament it takes a's index value(0,1,2,3,4) and not a's actual value(1,2,3,4,5)
+        print(a,end= " ") # as loop finishes it prints a's actual value
     print()
 
 for a in range (1,6):
