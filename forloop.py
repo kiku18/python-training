@@ -203,22 +203,23 @@ for a in range(1,100):
 print(L1)
 print(S1)
 print(d1)
-
+# finding out and segregating positive and negative integers
 pL=[]
 nL=[]
 
 for a in range(0
         ,15):
-    n=int(input(f" enter the number{a+1}"))
+    n=int(input(f" enter the number{a+1}:"))
     if n<0:
         nL.append(n)
     else:
         pL.append(n)
-print(f" the sum of positive number are={sum(pL)}")
-print(f" the sum of negative number are={sum(nL)}")
-print(f" the max of positive ={max(pL)}")
-print(f" the min of negative ={min(nL)}")
-print(f" the number of positive elements={len(pL)}")
+print(f" The sum of total positive numbers are={sum(pL)}")
+print(f" The sum of total negative numbers are={sum(nL)}")
+print(f" The max of given positive number is ={max(pL)}")
+print(f" The min of given negative number is ={min(nL)}")
+print(f" The total count of positive numbers is ={len(pL)}")
+print(f" The total count of negative elements is ={len(nL)}")
 
 
 #dict using for loop
