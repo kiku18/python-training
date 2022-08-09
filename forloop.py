@@ -38,15 +38,15 @@ for a in range(5):
     else:
         total = m1 + m2 + m3 + m4 + m5
         Avg = total / 5
-        if total > 450:
+        if total >= 450:
             print(f"the student total ={total}")
             print(f"the average of the student ={Avg}")
             print('grade A')
-        elif total < 450 and total >= 300:
+        elif total < 450 and total >= 350:
             print(f"the student total ={total}")
             print(f"the average of the student ={Avg}")
             print('grade B')
-        elif total < 300 and total >= 275:
+        elif total < 350 and total >= 275:
             print(f"the student total ={total}")
             print(f"the average of the student ={Avg}")
             print('grade C')
