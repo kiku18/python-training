@@ -6,7 +6,7 @@ print(a-b)
 print(a*b)
 print(a/b)
 print(a//b)     #floor division
-print(a%b)      #modules
+print(a%b)      #modulus
 print(a**b)     #exponential
 
 a=int(input("enter the number1"))
