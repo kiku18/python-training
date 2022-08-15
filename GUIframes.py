@@ -1,4 +1,3 @@
-import datetime
 from tkinter import *
 root=Tk()
 root.geometry('1600x700')
@@ -15,11 +14,14 @@ F2.pack(padx=15,pady=15)
 F3=Frame(F1,bg="yellow",width=850,height=175)
 F3.pack(side=BOTTOM)
 F3.pack(padx=15,pady=15)
-F4=Frame(root,bg="#f9b750",width=600,height=700)
+F4=Frame(root,bg="#f9b750",width=700,height=700)
 F4.pack(side=RIGHT)
-F5=Frame(F4,bg="green",width=600,height=350)
+F5=Frame(F4,bg="green",width=700,height=400)
 F5.pack(side=TOP)
-F5.pack(padx=50,pady=100)
+F5.pack(padx=15,pady=15)
+F6=Frame(F4,bg="#10898d",width=700,height=175)
+F6.pack(side=BOTTOM)
+F6.pack(padx=15,pady=15)
 
 root.mainloop()
 
