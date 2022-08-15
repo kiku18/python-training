@@ -9,5 +9,6 @@
     <orderEntry type="module" module-name="Kishoretestpro" />
     <orderEntry type="module" module-name="python Program" />
     <orderEntry type="module" module-name="Python_sample" />
+    <orderEntry type="module" module-name="django-crud-sqlite" />
   </component>
 </module>
